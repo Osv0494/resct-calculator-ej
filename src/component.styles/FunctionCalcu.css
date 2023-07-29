@@ -1,0 +1,78 @@
+:root{
+    --primary-color: #99c9ff;
+    --secondary-color: #ef974e;
+    --dark-color: #000;
+    --clear-color: #fff;
+    --light-color: #bcb3b3;
+    --dark-light-color: #abc6e5ed;
+  }
+  
+  .contenedor-calculadora{
+      width: 300px;
+      height: 550px;
+      padding: 14px;
+      background-color: var(--primary-color);
+      border-radius: 20px;
+      border: 5px solid var(--clear-color);
+      display: grid;/*grid*/  
+  }
+  .calcuOff{
+      display: none;
+  }
+    .rows{
+      margin: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn-close{
+      font-size: 30px;
+      color: var(--clear-color);
+      text-align: right;
+    }
+    .fila-input{
+      outline: none;
+      background-color: transparent;
+      border: 3px solid var(--clear-color);
+      width: 100%;
+      height: 70px;
+      padding: 10px 10px 0px 10px;
+      font-size: 50px;
+      color: var(--clear-color);
+      text-align: right;
+    }
+    .btn{
+      width: 60px;
+      height: 60px;
+      font-size: 25px;
+      color: var(--clear-color);
+      border-radius: 50px;
+      margin: 3px;
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+      border: 2px solid var(--clear-color);
+    }
+    .fila-btn-oper{
+      background-color: var(--light-color);
+      color: var(--dark-color);
+    }
+    .fila-btn{
+      background-color: var(--dark-light-color);
+    }
+    .fila-btn-operation{
+      background-color: var(--secondary-color);
+    }
+    .fila-btn0{
+      background-color: var(--dark-light-color);
+      width: 110px;
+    }
+    .calcu-img-icon{
+      width: 80px;
+      height: 80px;
+    }
+    .calcu{
+      display: none;
+    }
+    /*funcionavilidad con icon*/
+   
